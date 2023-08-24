@@ -1,6 +1,5 @@
 package com.github.wjlong1128._03_factory;
 
-import com.github.wjlong1128._02_simplefactory.product.Product;
 import com.github.wjlong1128._02_simplefactory.product.Toy;
 
 /**
@@ -11,7 +10,7 @@ import com.github.wjlong1128._02_simplefactory.product.Toy;
  */
 public class ToyFactory extends ProductFactory {
     @Override
-    public Product createProduct() {
+    public Toy createProduct() {
         return new Toy();
     }
 }
